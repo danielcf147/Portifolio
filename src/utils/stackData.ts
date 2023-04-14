@@ -5,7 +5,7 @@ import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
 import { FaPython, FaVuejs } from "react-icons/fa";
-import { SiDjango, SiTypescript } from "react-icons/si";
+import { SiDjango, SiOpenai, SiTypescript } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
 
 export const stackData = [
@@ -36,4 +36,5 @@ export const stackData = [
   { title: "TypeScript", img: SiTypescript },
   { title: "Python", img: FaPython },
   { title: "Django", img: SiDjango },
+  { title: "Chat-GPT", img: SiOpenai },
 ];
